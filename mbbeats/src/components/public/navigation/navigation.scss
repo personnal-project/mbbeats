@@ -1,0 +1,39 @@
+.Navigation{
+
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .logoHome{
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar{
+        width: 30%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .is_active{
+            color: rgb(190, 90, 8);
+        }
+
+        li{
+            list-style-type: none;
+            padding-bottom: 5px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: 0.5s ease;
+
+            &:hover{
+               border-bottom: 1px solid rgb(190, 90, 8);
+            }
+        }
+    }
+}
