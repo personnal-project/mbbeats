@@ -1,0 +1,36 @@
+@media screen and (min-width: 1024px){
+
+    .Contact{
+        height: 75vh;
+
+        .titleContact{
+            height: 15vh;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contentContact{
+            height: 50vh;
+            background-color: violet;
+
+            form{
+                background-color: yellow;
+                height: 50vh;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-direction: column;
+
+                .fieldsContact{
+                    width: 400px;
+                    height: 5vh;
+                }
+
+                
+            }
+        }
+    }
+
+}

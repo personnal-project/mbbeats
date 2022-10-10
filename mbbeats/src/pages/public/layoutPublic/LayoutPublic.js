@@ -1,16 +1,18 @@
 import React from "react";
 import Navigation from "../../../components/public/navigation/Navigation";
-import Home from "../home/Home";
-import './layoutpublic.scss'
+import './layoutpublic.scss';
+import { RouterView } from "react-view-router";
 
 
 function LayoutPublic(){
+
     return(
         <div className="LayoutPublic">
             <Navigation/>
-            <Home/>
+            <RouterView/>
         </div>
     );
+
 }
 
 export default LayoutPublic;
