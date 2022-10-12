@@ -4,7 +4,24 @@ import './beats.scss';
 function Beats(){
     return(
         <div className="Beats">
-            Beats fonctionne
+            <figure className="titleBeats">
+                <h1>BEATS</h1>
+            </figure>
+            <figure className="contentBeats">
+
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                <div><figure>Preview beat</figure></div>
+                
+            </figure>
         </div>
     )
 }
