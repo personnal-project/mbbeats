@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from '../../../assets/flowLogoIcon.svg'
 import './navigation.scss'
 
 function Navigation(){
 
     return(
         <div className="Navigation">
-            <figure className="logoHome">LOGO</figure>
+            <figure className="logoHome">
+                <img src={Logo} alt="" />
+            </figure>
             <nav className="navbar">
                 <Link className="buttonNav" to="/home"><li className="is_active">Accueil</li></Link>
                 <Link className="buttonNav" to="/musique"><li>Musique</li></Link>

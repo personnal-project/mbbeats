@@ -1,6 +1,39 @@
 .Home{
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    .headerHome{
+        height:85vh;
+        display: flex;
+        justify-content: center;
+
+        img{
+            height: auto;
+        }
+    }
+
+    .containerMusiqueHome{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        background-color: violet;
+
+        .titleMusique{
+            height: 10vh;
+            background-color: red;
+        }
+
+        .contentMusiqueHome{
+            height: 25vh;
+            background-color: green ;
+        }
+    }
+
+    .containerBeatsHome{
+        height: 40vh;
+        background-color: yellow;
+
+        .titleBeats{
+            height: 10vh;
+            background-color: red;
+        }
+    }
 }
