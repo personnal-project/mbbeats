@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import './beats.scss';
 
 function Beats(){
@@ -9,11 +10,12 @@ function Beats(){
             </figure>
             <figure className="contentBeats">
 
+                <div><Link className="previewBtn" to="/beatpreview">Preview beat</Link></div>
                 <div><figure>Preview beat</figure></div>
                 <div><figure>Preview beat</figure></div>
                 <div><figure>Preview beat</figure></div>
                 <div><figure>Preview beat</figure></div>
-                <div><figure>Preview beat</figure></div>
+
 
                 <div><figure>Preview beat</figure></div>
                 <div><figure>Preview beat</figure></div>

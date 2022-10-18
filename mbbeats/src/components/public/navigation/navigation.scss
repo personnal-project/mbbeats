@@ -16,6 +16,25 @@
             width: 170px;
             height: auto;
         }
+
+        .containerBasket{
+            width: 5vw;
+            height: 12vh;
+            display: flex;
+            right: 0;
+            margin-right: 250px;
+            justify-content: space-evenly;
+            position: absolute;
+            align-items: center;
+
+            span{
+                font-size: 18px;
+            }
+
+            svg{
+                margin-bottom: 6px;
+            }
+        }
     }
 
     .navbar{

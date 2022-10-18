@@ -7,6 +7,7 @@ import Home from './pages/public/home/Home';
 import Musique from './pages/public/musique/Musique';
 import Beats from './pages/public/beats/Beats';
 import Contact from './pages/public/contact/Contact';
+import BeatPreview from './pages/public/beat-preview/BeatPreview';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/home" element={<Home/>}/>
           <Route exact path="/musique" element={<Musique/>}/>
           <Route exact path="/beats" element={<Beats/>}/>
+          <Route exact path="/beatpreview" element={<BeatPreview/>}/>
           <Route exact path="/contact" element={<Contact/>}/>
           <Route exact path="/admin" element={<LayoutAdmin/>}/>
           
